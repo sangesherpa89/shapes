@@ -33,6 +33,5 @@ function draw() {
   pop(); //restore drawing style setting and transformation
   
   //follow the mouse
-
   ellipse(mouseX+50,mouseY+50,10,10); // follows the mouse, 10px dia
 }
