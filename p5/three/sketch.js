@@ -31,4 +31,8 @@ function draw() {
   rotateY(frameCount * 0.04); //Rotates around Y axis only in WEbgl mode
   torus(70, 20); // Draw a torus with a radius and tube radius
   pop(); //restore drawing style setting and transformation
+  
+  //follow the mouse
+
+  ellipse(mouseX+50,mouseY+50,10,10); // follows the mouse, 10px dia
 }
